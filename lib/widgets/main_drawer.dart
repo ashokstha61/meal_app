@@ -44,7 +44,7 @@ class MainDrawer extends StatelessWidget {
                 color: Theme.of(context).colorScheme.onBackground,
               ),
               title: Text(
-                'Meals ......',
+                'Meals ',
                 style: Theme.of(context).textTheme.titleSmall!.copyWith(
                       color: Theme.of(context).colorScheme.onBackground,
                       fontSize: 24,
@@ -67,7 +67,7 @@ class MainDrawer extends StatelessWidget {
                   ),
             ),
             onTap: () {
-              onSelectScreen('fliters');
+              onSelectScreen('Filter');
             },
           ),
         ],
