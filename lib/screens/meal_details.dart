@@ -2,7 +2,7 @@ import 'package:flutter/material.dart';
 import 'package:flutter_riverpod/flutter_riverpod.dart';
 import 'package:meal_app/model/meal.dart';
 import 'package:meal_app/provider/favourites_provider.dart';
-import 'package:meal_app/provider/meals_providers.dart';
+
 
 class MealDetailsScreen extends ConsumerWidget {
   const MealDetailsScreen({
